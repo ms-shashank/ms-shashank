@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 316" width="1200" height="316" role="img" aria-label="Stack manifest. Languages: Python, TypeScript, SQL, Bash, C and C++. Agents and LLM: orchestration, tool calling, context management, RAG, evaluation harnesses. Backend: FastAPI, Postgres, Redis, SQLAlchemy, Next.js. Infrastructure: Docker, Swarm, Azure, Bedrock, RunPod, GPU serving T4 to H100. ML: PyTorch, Transformers, ONNX Runtime, OpenCV, YOLO. Current focus: agent evaluation and benchmarking, retrieval and context systems, LLM serving at scale.">
+  <rect width="1200" height="316" rx="10" fill="#F6F9F9"/>
+  <rect x="0.5" y="0.5" width="1199" height="315" rx="9.5" fill="none" stroke="#D8E2E3"/>
+
+  <text x="56" y="52" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="3.5" fill="#8698A0">STACK MANIFEST</text>
+
+  <line x1="180" y1="88" x2="180" y2="300" stroke="#D8E2E3" stroke-width="1"/>
+  <line x1="840" y1="88" x2="840" y2="300" stroke="#D8E2E3" stroke-width="1"/>
+
+  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="13.5">
+    <text x="56" y="112" fill="#8698A0">languages</text>
+    <text x="212" y="112" fill="#243238">python · typescript · sql · bash · c/c++</text>
+
+    <text x="56" y="156" fill="#8698A0">agents + llm</text>
+    <text x="212" y="156" fill="#243238">orchestration · tool calling · context management · rag · evaluation</text>
+
+    <text x="56" y="200" fill="#8698A0">backend</text>
+    <text x="212" y="200" fill="#243238">fastapi · postgres · redis · sqlalchemy · next.js</text>
+
+    <text x="56" y="244" fill="#8698A0">infra</text>
+    <text x="212" y="244" fill="#243238">docker · swarm · azure · bedrock · runpod · gpu t4 → h100</text>
+
+    <text x="56" y="288" fill="#8698A0">ml</text>
+    <text x="212" y="288" fill="#243238">pytorch · transformers · onnx runtime · opencv · yolo</text>
+  </g>
+
+  <!-- right column mirrors the header's two-column structure -->
+  <text x="880" y="52" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="3.5" fill="#8698A0">CURRENT FOCUS</text>
+
+  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="13">
+    <circle cx="884" cy="146" r="3" fill="#00875F"/>
+    <text x="900" y="150" fill="#243238">agent evaluation</text>
+
+    <circle cx="884" cy="190" r="3" fill="#00875F"/>
+    <text x="900" y="194" fill="#243238">retrieval + context</text>
+
+    <circle cx="884" cy="234" r="3" fill="#00875F"/>
+    <text x="900" y="238" fill="#243238">llm serving at scale</text>
+  </g>
+</svg>

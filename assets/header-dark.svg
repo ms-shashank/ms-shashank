@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Shashank M S, Lead AI Engineer. Agents, inference, evaluation.">
+  <rect width="1200" height="340" rx="10" fill="#0B1416"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="9.5" fill="none" stroke="#1E2E33"/>
+
+  <!-- eyebrow -->
+  <text x="56" y="60" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" letter-spacing="4.5" fill="#4E656C">PROFILE // MS-SHASHANK</text>
+
+  <!-- name, set as a system identifier -->
+  <text x="54" y="130" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="52" font-weight="700" letter-spacing="1" fill="#DCE7E9">shashank m s</text>
+
+  <!-- role -->
+  <text x="56" y="166" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="19" font-weight="600" letter-spacing="0.2" fill="#03F7B5">Lead AI Engineer</text>
+
+  <!-- tagline -->
+  <text x="56" y="194" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" fill="#718A91">I build AI software agents, and the inference infrastructure underneath them.</text>
+
+  <!-- structural divider -->
+  <line x1="800" y1="42" x2="800" y2="298" stroke="#1E2E33" stroke-width="1"/>
+
+  <!-- ── signature: the lifecycle strip ── -->
+  <text x="56" y="242" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="3.5" fill="#4E656C">AGENT LIFECYCLE</text>
+
+  <line x1="56" y1="272" x2="700" y2="272" stroke="#22343A" stroke-width="1.5"/>
+
+  <circle cx="56"  cy="272" r="6.5" fill="#0B1416" stroke="#3A5159" stroke-width="1.5"/>
+  <circle cx="217" cy="272" r="6.5" fill="#0B1416" stroke="#3A5159" stroke-width="1.5"/>
+  <circle cx="378" cy="272" r="6.5" fill="#0B1416" stroke="#3A5159" stroke-width="1.5"/>
+  <circle cx="539" cy="272" r="6.5" fill="#0B1416" stroke="#3A5159" stroke-width="1.5"/>
+
+  <!-- verify: the one lit node -->
+  <circle cx="700" cy="272" r="8" fill="#03F7B5"/>
+  <polyline points="696,272 699,275.5 704.5,267.5" fill="none" stroke="#0B1416" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#718A91">
+    <text x="56"  y="300" text-anchor="start">classify</text>
+    <text x="217" y="300" text-anchor="middle">plan</text>
+    <text x="378" y="300" text-anchor="middle">approve</text>
+    <text x="539" y="300" text-anchor="middle">execute</text>
+    <text x="700" y="300" text-anchor="middle" fill="#03F7B5">verify</text>
+  </g>
+
+  <!-- ── run meta ── -->
+  <text x="844" y="60" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" letter-spacing="3.5" fill="#4E656C">RUN META</text>
+
+  <g font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5">
+    <text x="844" y="104" fill="#4E656C">surface</text><text x="960" y="104" fill="#C3D3D6">vscode · cli</text>
+    <text x="844" y="136" fill="#4E656C">models</text><text x="960" y="136" fill="#C3D3D6">45+ routed</text>
+    <text x="844" y="168" fill="#4E656C">gpu</text><text x="960" y="168" fill="#C3D3D6">T4 → H100</text>
+    <text x="844" y="200" fill="#4E656C">evals</text><text x="960" y="200" fill="#C3D3D6">closed book</text>
+    <text x="844" y="232" fill="#4E656C">team</text><text x="960" y="232" fill="#C3D3D6">6 engineers</text>
+  </g>
+
+  <line x1="844" y1="262" x2="1144" y2="262" stroke="#1E2E33"/>
+  <text x="844" y="292" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="1" fill="#4E656C">based in india · working remote</text>
+</svg>
