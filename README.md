@@ -1,30 +1,74 @@
-<h1 align="center">Hi 👋, I'm Shashank M S</h1>
-<h3 align="center">Data Scientist and AI & ML Developer</h3>
+<h1 align="center">Shashank M S</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ms-shashank&label=Profile%20views&color=0e75b6&style=flat" alt="ms-shashank" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ms-shashank" alt="ms-shashank" /></a> </p>
-
-- 🔭 I’m currently working on [Person Detection, Tracking, and Re-Identification](https://github.com/ms-shashank/Person-Detector-and-Tracking)
-
-- 🌱 I’m currently learning **Deeplearning, Computer Vision and LLMs.**
-
-- 💬 Ask me about **Data Science, Computer Visoin & LLMs.**
-
-- 📫 How to reach me **shashankms2003@gmail.com**
-
-- 📄 Know about my experiences [Resume](https://drive.google.com/file/d/1444SuY782ZRA5BJ_MNvqF5mxxddpFZmt/view?usp=sharing)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/mszzz21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mszzz21" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ms-shashank" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ms-shashank" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/18139037" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="18139037" height="30" width="40" /></a>
-<a href="https://instagram.com/_m_s_______________________" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_m_s_______________________" height="30" width="40" /></a>
+<p align="center">
+  <b>Lead AI Engineer</b><br/>
+  I build AI software agents, and the inference infrastructure underneath them.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://linkedin.com/in/ms-shashank">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:shashankms2003@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://twitter.com/mszzz21">X</a> &nbsp;·&nbsp;
+  <a href="https://stackoverflow.com/users/18139037">Stack Overflow</a>
+</p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ms-shashank&show_icons=true&locale=en&layout=compact" alt="ms-shashank" /></p>
+---
 
+### What I work on
+
+I lead engineering on **[OxCode](https://marketplace.visualstudio.com/items?itemName=oxloai.oxcode-ai)**, an agentic AI software engineer that ships as a VS Code extension and a CLI. I own its orchestration core: a classify, plan, approve, execute, verify lifecycle running on an explicit state machine, with per-role model routing, sub-agent dispatch, and a verifier designed to catch vacuous or weakened tests rather than trust the model's own report.
+
+Before that I architected the **[Oxlo.ai](https://oxlo.ai)** backend from scratch: a serverless LLM inference platform with an OpenAI-compatible API, intelligent routing across Azure AI Foundry, AWS Bedrock and self-hosted GPU workers over 45+ models, quota-aware fallback chains, per-plan rate limiting, usage metering and billing. I deployed and auto-scaled LLM and diffusion inference on T4, L40S, A100 and H100 clusters.
+
+Most of the difference between a coding agent that works and one that wastes your afternoon is not the model. It is the harness around it: context management, tool design, the verification loop, and whether the system tells you the truth about what it actually did. That is the problem I spend my time on.
+
+**Currently:** agent evaluation and benchmarking, retrieval and context systems, LLM serving at scale.
+
+---
+
+### Shipped
+
+| Project | |
+|---|---|
+| **[OxCode](https://marketplace.visualstudio.com/items?itemName=oxloai.oxcode-ai)** | An AI software engineer for VS Code and the terminal. Published on the Visual Studio Marketplace. |
+| **[Oxlo.ai](https://oxlo.ai)** | Serverless LLM inference platform. I built and own the backend. |
+| **[oxcode-evals](https://github.com/Oxcode-ai/oxcode-evals)** | Reproducible agent evaluations with published methodology and prompts. |
+
+---
+
+### Selected open source
+
+- **[Person Detection, Tracking and Re-Identification](https://github.com/ms-shashank/Person-Detector-and-Tracking)**
+  YOLOv8 detection, Deep SORT tracking and OSNet re-identification. Holds a stable ID per person through occlusion and re-entry into frame.
+
+- **[AI Code Debugger](https://github.com/ms-shashank/AI-Code-Debugger)**
+  A role-based LangGraph workflow (Parser, Fixer, Reviewer) with iterative reasoning loops and dynamic model selection for cost and performance tradeoffs.
+
+- **[Universal Document Intelligence Chatbot](https://github.com/ms-shashank/Universal-Document-Intelligence-Chatbot)**
+  Answers questions across uploaded documents (PDF, DOCX, TXT, CSV, XLSX) and live web search, routing each query to whichever source can actually answer it, with citations.
+
+- **[PolicyPulse](https://github.com/ms-shashank/-PolicyPulse-Internal-Policy-Compliance-Checker)**
+  Document and email scanning service that flags policy violations through configurable rules for PII, confidential material and compliance terms, with a dashboard and REST API.
+
+- **[Traffic Sign Detection](https://github.com/ms-shashank/Traffic-sign-detection-Fine-Tuned-model-using-YOLOv5)**
+  Fine-tuned YOLOv5 for traffic sign recognition.
+
+---
+
+### Stack
+
+**Languages**  Python · TypeScript · SQL · Bash · C/C++
+
+**Agents and LLM**  Agent orchestration · tool calling · context management · RAG · evaluation harnesses · LangGraph · LangChain · ONNX embeddings
+
+**Backend**  FastAPI · Postgres · Redis · SQLAlchemy · Alembic · Next.js
+
+**Infrastructure**  Docker and Swarm · Azure (VM, Blob, Postgres, AI Foundry) · AWS Bedrock · RunPod · SaladCloud · GPU serving on T4 / L40S / A100 / H100
+
+**ML**  PyTorch · Transformers · ONNX Runtime · OpenCV · YOLO · spaCy
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ms-shashank&layout=compact&langs_count=8&hide=html,css,jupyter%20notebook" alt="Top languages" />
+</p>
