@@ -60,10 +60,10 @@ Fine-tuned YOLOv5 for traffic sign recognition.
 <details>
 <summary>Stack as text</summary>
 
-- **Languages** — Python, TypeScript, SQL, Bash, C/C++
-- **Agents and LLM** — agent orchestration, tool calling, context management, RAG, evaluation harnesses, LangGraph, LangChain, ONNX embeddings
-- **Backend** — FastAPI, Postgres, Redis, SQLAlchemy, Alembic, Next.js
-- **Infrastructure** — Docker and Swarm, Azure (VM, Blob, Postgres, AI Foundry), AWS Bedrock, RunPod, SaladCloud, GPU serving on T4 / L40S / A100 / H100
-- **ML** — PyTorch, Transformers, ONNX Runtime, OpenCV, YOLO, spaCy
+- **Languages** - Python, TypeScript, SQL, Bash, C/C++
+- **Agents and LLM** - agent orchestration, tool calling, context management, RAG, evaluation harnesses, LangGraph, LangChain, ONNX embeddings
+- **Backend** - FastAPI, Postgres, Redis, SQLAlchemy, Alembic, Next.js
+- **Infrastructure** - Docker and Swarm, Azure (VM, Blob, Postgres, AI Foundry), AWS Bedrock, RunPod, SaladCloud, GPU serving on T4 / L40S / A100 / H100
+- **ML** - PyTorch, Transformers, ONNX Runtime, OpenCV, YOLO, spaCy
 
 </details>
