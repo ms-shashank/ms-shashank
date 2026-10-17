@@ -43,9 +43,6 @@ A role-based LangGraph workflow (Parser, Fixer, Reviewer) with iterative reasoni
 **[Universal Document Intelligence Chatbot](https://github.com/ms-shashank/Universal-Document-Intelligence-Chatbot)**
 Answers questions across uploaded documents (PDF, DOCX, TXT, CSV, XLSX) and live web search, routing each query to whichever source can actually answer it, with citations.
 
-**[PolicyPulse](https://github.com/ms-shashank/-PolicyPulse-Internal-Policy-Compliance-Checker)**
-Document and email scanning that flags policy violations through configurable rules for PII, confidential material and compliance terms, with a dashboard and REST API.
-
 **[Traffic Sign Detection](https://github.com/ms-shashank/Traffic-sign-detection-Fine-Tuned-model-using-YOLOv5)**
 Fine-tuned YOLOv5 for traffic sign recognition.
 
