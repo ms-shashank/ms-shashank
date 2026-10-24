@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img src="assets/header-dark.svg" alt="Shashank M S — Lead AI Engineer. I build AI software agents, and the inference infrastructure underneath them." width="100%">
+  <img src="assets/header-dark.svg" alt="Shashank M S. Lead AI engineer building OxCode. SWE-bench Verified: 410 of 500 issues fixed. Terminal-Bench 2.1: 73 of 89 solved." width="100%">
 </picture>
 
 <p align="center">
@@ -14,53 +14,51 @@
   <a href="https://stackoverflow.com/users/18139037" title="Stack Overflow"><img src="assets/icon-stackoverflow.svg" alt="Stack Overflow" height="24"></a>
 </p>
 
-<br>
-
 ### What I work on
 
-I lead engineering on **[OxCode](https://marketplace.visualstudio.com/items?itemName=oxloai.oxcode-ai)**, an agentic AI software engineer that ships as a VS Code extension and a CLI. I own its orchestration core: the lifecycle in the header above, running on an explicit state machine, with per-role model routing, sub-agent dispatch, and a verifier designed to catch vacuous or weakened tests rather than trust the model's own report.
+<img align="right" width="270" src="assets/oxcode-panel.png" alt="The OxCode panel in VS Code: a failing login test traced to a seconds versus milliseconds bug and fixed in two files">
 
-Before that I architected the **[Oxlo.ai](https://oxlo.ai)** backend from scratch: a serverless LLM inference platform with an OpenAI-compatible API, intelligent routing across Azure AI Foundry, AWS Bedrock and self-hosted GPU workers over 45+ models, quota-aware fallback chains, per-plan rate limiting, usage metering and billing. I deployed and auto-scaled LLM and diffusion inference on T4, L40S, A100 and H100 clusters.
+I lead engineering on **[OxCode](https://oxcode.oxlo.ai)**, an AI software engineer for VS Code and the terminal. Version 0.9.0, the public launch, is live on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=oxloai.oxcode-ai) and [Open VSX](https://open-vsx.org/extension/oxloai/oxcode-ai).
 
-Most of the difference between a coding agent that works and one that wastes your afternoon is not the model. It is the harness around it: context management, tool design, the verification loop, and whether the system tells you the truth about what it actually did. That is the problem I spend my time on, and it is why I benchmark instead of demo.
+My part spans the agent loop, the API gateway behind it, and the evaluation work that measures both. The panel on the right is the real extension, rendered from its own webview.
 
-### Shipped
+Before OxCode I built the backend of **[Oxlo.ai](https://oxlo.ai)**, a serverless inference platform serving 45+ models across Azure AI Foundry, AWS Bedrock and our own GPUs.
 
-| | |
-|---|---|
-| **[OxCode](https://marketplace.visualstudio.com/items?itemName=oxloai.oxcode-ai)** | An AI software engineer for VS Code and the terminal. Published on the Visual Studio Marketplace. |
-| **[Oxlo.ai](https://oxlo.ai)** | Serverless LLM inference platform. I built and own the backend. |
-| **[oxcode-evals](https://github.com/Oxcode-ai/oxcode-evals)** | Reproducible agent evaluations with published methodology and prompts. |
+<br clear="right">
+
+### Results you can check
+
+Both runs are published with their predictions, reports and method in [oxcode-evals](https://github.com/Oxcode-ai/oxcode-evals).
+
+- **SWE-bench Verified: 410 of 500 (82.0%)**, with the agent offline inside each issue's own environment. [See the run](https://github.com/Oxcode-ai/oxcode-evals/tree/main/benchmarks/swe-bench-verified/2026-09-25)
+- **Terminal-Bench 2.1: 73 of 89**, our best round. [See the run](https://github.com/Oxcode-ai/oxcode-evals/tree/main/benchmarks/terminal-bench-2.1/2026-09-28)
+
+### Systems I have built
+
+- **Rate limiting** in Redis, atomic per minute, hour and day, with concurrency limits
+- **Priority queues** per model, ordered by plan, so a burst waits instead of failing
+- **GPU load balancing and autoscaling** across T4 to H100 workers
+- **Caching**, from a Redis user cache on the hot path to prompt caching that took Claude calls from zero cache hits to a cached prompt
+- **Retries and fallback routing** across model providers in the OxCode gateway
+
 
 ### Selected open source
 
 **[Person Detection, Tracking and Re-Identification](https://github.com/ms-shashank/Person-Detector-and-Tracking)**
-YOLOv8 detection, Deep SORT tracking and OSNet re-identification. Holds a stable ID per person through occlusion and re-entry into frame.
+YOLOv8 detection, Deep SORT tracking and OSNet re-identification. Keeps a stable ID for each person through occlusion and re-entry.
 
 **[AI Code Debugger](https://github.com/ms-shashank/AI-Code-Debugger)**
-A role-based LangGraph workflow (Parser, Fixer, Reviewer) with iterative reasoning loops and dynamic model selection for cost and performance tradeoffs.
+A LangGraph workflow with parser, fixer and reviewer roles, iterative reasoning loops and model selection by cost.
 
 **[Universal Document Intelligence Chatbot](https://github.com/ms-shashank/Universal-Document-Intelligence-Chatbot)**
-Answers questions across uploaded documents (PDF, DOCX, TXT, CSV, XLSX) and live web search, routing each query to whichever source can actually answer it, with citations.
+Answers across uploaded documents and live web search, routing each question to the source that can answer it, with citations.
 
-**[Traffic Sign Detection](https://github.com/ms-shashank/Traffic-sign-detection-Fine-Tuned-model-using-YOLOv5)**
-Fine-tuned YOLOv5 for traffic sign recognition.
+**[PolicyPulse](https://github.com/ms-shashank/-PolicyPulse-Internal-Policy-Compliance-Checker)**
+Scans documents and email for policy violations with configurable rules for personal data and confidential material.
 
-<br>
+### Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stack-light.svg">
-  <img src="assets/stack-dark.svg" alt="Stack manifest" width="100%">
-</picture>
-
-<details>
-<summary>Stack as text</summary>
-
-- **Languages** - Python, TypeScript, SQL, Bash, C/C++
-- **Agents and LLM** - agent orchestration, tool calling, context management, RAG, evaluation harnesses, LangGraph, LangChain, ONNX embeddings
-- **Backend** - FastAPI, Postgres, Redis, SQLAlchemy, Alembic, Next.js
-- **Infrastructure** - Docker and Swarm, Azure (VM, Blob, Postgres, AI Foundry), AWS Bedrock, RunPod, SaladCloud, GPU serving on T4 / L40S / A100 / H100
-- **ML** - PyTorch, Transformers, ONNX Runtime, OpenCV, YOLO, spaCy
-
-</details>
+- **Languages:** Python, TypeScript, JavaScript, SQL, Bash
+- **AI:** coding agents, tool calling, RAG, prompt caching, LLM evaluation, LangGraph, PyTorch
+- **Models:** DeepSeek, Kimi, Qwen, GLM, Llama, Mistral, Claude and GPT, plus FLUX, Whisper and YOLO
+- **Backend and infrastructure:** FastAPI, Postgres, Redis, Docker Swarm, Azure, AWS Bedrock, RunPod
