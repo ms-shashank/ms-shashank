@@ -16,11 +16,15 @@
 
 ### What I work on
 
-<img align="right" width="270" src="assets/oxcode-panel.png" alt="The OxCode panel in VS Code: a failing login test traced to a seconds versus milliseconds bug and fixed in two files">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/oxcode-run-dark.webp">
+  <source media="(prefers-color-scheme: light)" srcset="assets/oxcode-run-light.webp">
+  <img align="right" width="300" src="assets/oxcode-run-dark.webp" alt="A recorded OxCode run in the real VS Code panel: asked why a login test fails, it searches, reads two files, finds that expiresAt is in seconds but compared to Date.now() in milliseconds, edits two files, asks before running npm test, and finishes with 14 of 14 tests passing">
+</picture>
 
 I lead engineering on **[OxCode](https://oxcode.oxlo.ai)**, an AI software engineer for VS Code and the terminal. Version 0.9.0, the public launch, is live on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=oxloai.oxcode-ai) and [Open VSX](https://open-vsx.org/extension/oxloai/oxcode-ai).
 
-My part spans the agent loop, the API gateway behind it, and the evaluation work that measures both. The panel on the right is the real extension, rendered from its own webview.
+My part spans the agent loop, the API gateway behind it, and the evaluation work that measures both. The run on the right is the real extension panel, recorded from its own webview: it finds a seconds versus milliseconds bug, fixes it, asks before running the tests, and stops when they pass.
 
 Before OxCode I built the backend of **[Oxlo.ai](https://oxlo.ai)**, a serverless inference platform serving 45+ models across Azure AI Foundry, AWS Bedrock and our own GPUs.
 
